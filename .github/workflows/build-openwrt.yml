@@ -92,11 +92,6 @@ jobs:
         cd openwrt/package
         git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git luci-theme-argonn
         
-    - name: luci-app-syncdial
-      run: |
-        cd openwrt/package
-        git clone https://github.com/monokoo/luci-app-syncdial.git luci-app-syncdial
-        
     - name: aliyundrive-webdav
       run: |
         cd openwrt/package
